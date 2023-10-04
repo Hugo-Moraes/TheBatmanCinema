@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: black;
+
+}
+
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 140px;
+    height: auto;
+}
+
+
+
+
+
+.actor-cards-conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #ffff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+
+.banner-1 {
+    background-image: url('https://epipoca.com.br/wp-content/uploads/2022/03/the-batman-pattinson-epipoca-1200x675.jpeg');
+}
+.banner-2 {
+    background-image: url('https://images5.alphacoders.com/120/1206049.jpg');
+}
+.banner-3 {
+    background-image: url('https://i.redd.it/tmu4p8x66wt71.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://sobresagas.com.br/wp-content/uploads/2022/02/robert-pattinson.jpeg');
+}
+.banner-5 {
+    background-image: url('https://images5.alphacoders.com/131/1311166.jpeg');
+}
+.banner-6 {
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/01/batman-robert-pattinson-2022.jpg?w=1200&h=900&crop=1');
+}
+
+.banner-7 {
+    background-image: url('https://i0.wp.com/critical-room.com/wp-content/uploads/2022/03/l-intro-1644532027.jpg?fit=1024%2C577&ssl=1');
+}
+.banner-8 {
+    background-image: url('https://nerdxoficial.com.br/wp-content/uploads/2021/05/the-batman-video-mostra-detalhes-do-visual-da-mulher-gato.jpg');
+}
+.banner-9 {
+    background-image: url('https://wallpaper.dog/large/20539655.jpg');
+}
+
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+span {
+    color: #ffff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
